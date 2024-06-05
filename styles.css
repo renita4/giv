@@ -15,7 +15,7 @@ body {
   height: max-content;
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  background-color: #F4A460;
+  background-color: #B4E2CA;
   padding: 1rem 0;
   position: sticky;
   z-index: 99;
@@ -94,7 +94,7 @@ nav {
 }
 .home-sec {
   font-family: "Montserrat", sans-serif;
-  background-color:	#FFEFD5;
+  background-color: #ffffff;
   text-align: start;
   min-height: 60rem;
   height: auto;
@@ -145,15 +145,15 @@ nav {
   font-size: 2rem;
   border-radius: 0.4rem;
   padding: 2rem;
-  background-color: #A0522D;
-  color: #black;
+  background-color: #B4E2C4;
+  color: #fafafa;
   outline: 0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   transition: all 0.2s;
 }
 
 .btn:hover {
-  background-color: #BC8F8F;
+  background-color: #000000;
   cursor: pointer;
 }
 .btn:active {
@@ -181,7 +181,7 @@ nav {
   padding: 8rem 0 10rem 0;
 }
 #tentang {
-  background-color: #A0522D;
+  background-color: #fafafa;
 }
 #about img {
   max-width: 100%;
@@ -194,7 +194,7 @@ nav {
   background-color: #e3e3e3;
 }
 .tile {
-  background-color: #FFDAB9;
+  background-color: #fafafa;
   height: 45rem;
   width: 25rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -221,7 +221,7 @@ nav {
   font-size: 2rem;
   font-weight: 600;
   padding: 1rem 0;
-  color: #A0522D;
+  color: #e23d3d;
   margin: 0;
 }
 .tile p {
@@ -234,7 +234,7 @@ nav {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
 }
 #layanankami {
-  background-color: #A0522D;
+  background-color: #ee6f57;
 }
 .bars {
   height: max-content;
@@ -276,7 +276,7 @@ nav {
   font-size: 2.3rem;
 }
 #manfaat {
-  background-color: #FF8C00;
+  background-color: #f84848;
 }
 #benefits iframe {
   outline: 0;
@@ -286,7 +286,7 @@ nav {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
 }
 #contact {
-  background-color: #F4A460;
+  background-color: #B4E2C4;
   color: #fafafa;
 }
 #contact h6 {
@@ -315,24 +315,63 @@ input[type="email"] {
   font-family: 'LuckiestGuyRegular';
   font-weight: lighter;
 }
-
+.testi {
+  background-color: #fafafa;
+  height: 45rem;
+  width: 25rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+@media (max-width: 680px) {
+  .testi {
+    width: auto;
+    max-width: 100%;
+    min-width: 20rem;
+    margin: 1.5rem auto;
+    height: auto;
+  }
+}
+.testi img {
+  width: 100%;
+  max-width: 48rem;
+  border-radius: 0.5rem;
+}
+.testi h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color:#333333;
+  text-align: center;
+}
+.testi p {
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.testi:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
+}
 footer {
   font-size: 1.4rem;
-  background-color: #A0522D;
+  background-color: #B4E2C4;
   text-align: center;
   padding: 2rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  color: black;
+  color: #fafafa;
 }
 footer a {
   color: #e3e3e3;
   text-decoration: none;
- 
 }
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
-  width: 50px;
+  width: 10px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -343,22 +382,23 @@ footer a {
 }
 
 .fa-facebook {
-  background: #4682B4;
+  background: #3B5998;
   color: white;
 }
+
 .fa-google {
-  background: #2E8B57;
-  color: white;
-}
-.fa-instagram {
-  background: #FF69B4;
+  background: #dd4b39;
   color: white;
 }
 .fa-youtube {
-  background: #FF0000;
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
   color: white;
 }
 .fa-twitter {
-  background: #1E90FF;
+  background: #55ACEE;
   color: white;
 }
